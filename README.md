@@ -17,7 +17,8 @@ aov pattern: (match_pattern) - Uses a wildcard system for searching aov layers. 
     
     -> *coat*,*dir*,*spec*,*sss*,*mission* <- an example to break out standard Arnold Render aovs
     
-    -> !*color*,*diffuse* <- would return 'diffuse_direct','diffuse_indirect' if there were the channels 'diffuse_direct','diffuse_indirect','diffuse_color' in the available channels
+    -> !*color*,*diffuse* <- would return 'diffuse_direct','diffuse_indirect' if there were the channels
+    'diffuse_direct','diffuse_indirect','diffuse_color' in the available channels
   
 krakout! (krackout) - Breakout that nuke tree.
 
