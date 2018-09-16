@@ -11,9 +11,9 @@ y grid units small: (y_space) - vertically space out dots and shuffles Y grid un
 
 y grid units large: (y_space_large) - this is the amount of vertical working space generated
 
-aov pattern: (match_pattern) - Uses a wildcard system for searching aov layers. Comma deliniated. AOVs will vary depending on show and facility. Example:
+aov pattern: (match_pattern) - Uses a wildcard system for searching aov layers. Comma delineated. AOVs will vary depending on show and facility. For example:
 
-    -> *group*,*emission* <- use this to break out lightgroups if they contain the word 'group' 
+    -> *group*,*emission* <- use this to break out aovs if they contain the word 'group' or 'emission'
     -> *coat*,*dir*,*spec*,*sss*,*mission* <- an example to break out illumination
   
 krakout! (krackout) - Breakout that nuke tree.
