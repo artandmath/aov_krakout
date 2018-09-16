@@ -16,7 +16,7 @@ aov pattern: (match_pattern) - Uses a wildcard system for searching aov layers. 
     -> *group*,*emission* <- use this to break out lightgroups if they contain the word 'group' 
     -> *coat*,*dir*,*spec*,*sss*,*mission* <- an example to break out illumination
   
-krakout! (krackout) - Breakout that the nuke tree.
+krakout! (krackout) - Breakout that nuke tree.
 
 ![screenshot](https://raw.githubusercontent.com/artandmath/aov_krakout/master/aov_krakout_screenshot.png)
 
