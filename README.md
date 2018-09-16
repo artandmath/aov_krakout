@@ -14,7 +14,10 @@ y grid units large: (y_space_large) - this is the amount of vertical working spa
 aov pattern: (match_pattern) - Uses a wildcard system for searching aov layers. Comma delineated. AOVs will vary depending on show and facility. Examples:
 
     -> *group*,*emission* <- use this to break out aovs if they contain the word 'group' or 'emission'
+    
     -> *coat*,*dir*,*spec*,*sss*,*mission* <- an example to break out standard Arnold Render aovs
+    
+    -> !*color*,*diffuse* <- would return 'diffuse_direct','diffuse_indirect' if there were the channels 'diffuse_direct','diffuse_indirect','diffuse_color' in the available channels
   
 krakout! (krackout) - Breakout that nuke tree.
 
