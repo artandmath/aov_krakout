@@ -13,7 +13,7 @@ y grid units large: (y_space_large) - this is the amount of vertical working spa
 
 aov pattern: (match_pattern) - Uses a wildcard system for searching aov layers. Comma deliniated. AOVs will vary depending on show and facility. Example:
 
-  *group*,*emission* <- use this to break out lightgroups if they contain the word 'group'
-  *coat*,*dir*,*spec*,*sss*,*mission* <- an example to break out illumination
+    -> *group*,*emission* <- use this to break out lightgroups if they contain the word 'group' 
+    -> *coat*,*dir*,*spec*,*sss*,*mission* <- an example to break out illumination
   
 krakout! (krackout) - Breakout that the nuke tree.
