@@ -18,7 +18,7 @@ aov pattern: (match_pattern) - Uses a wildcard system for searching aov layers. 
   
 krakout! (krackout) - Breakout that the nuke tree.
 
-![screenshot](https://raw.githubusercontent.com/artandmath/aov_kackout/aov_krackout_screenshot.png)
+![screenshot](https://raw.githubusercontent.com/artandmath/aov_kackout/raw/master/aov_krackout_screenshot.png)
 
 ## License
 
