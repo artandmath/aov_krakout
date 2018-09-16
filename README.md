@@ -20,6 +20,10 @@ krakout! (krackout) - Breakout that nuke tree.
 
 ![screenshot](https://raw.githubusercontent.com/artandmath/aov_krakout/master/aov_krakout_screenshot.png)
 
+## History Lesson
+
+https://www.c64-wiki.com/wiki/Krakout
+
 ## License
 
 This is free and unencumbered software released into the public domain.
