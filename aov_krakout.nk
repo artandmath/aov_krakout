@@ -2,7 +2,7 @@ set cut_paste_input [stack 0]
 version 10.5 v5
 push $cut_paste_input
 NoOp {
-name aov_krakout4
+name aov_krakout
 tile_color 0xff
 selected true
 xpos -815
