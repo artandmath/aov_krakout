@@ -26,12 +26,12 @@ __subtract sum of aovs from rgb: subtract_aovs__ >> Gather up any left over data
 __krakout! (krackout)__ >> Create the nuke tree.
 
 ### Pattern query syntax:
-, -> separates each AOV search query
-/ -> divide AOV by another AOV and multiply back together
-^ -> multiply AOV by another
-! -> exclude this AOV
-* -> wildcard to capture multiple AOVs - works with /,^,!
-$ -> parse an environment variable
+- __,__ >> separates each AOV search query
+- __/__ >> divide AOV by another AOV and multiply back together
+- __^__ >> multiply AOV by another
+- __!__ >> exclude this AOV
+- __*__ >> wildcard to capture multiple AOVs - works with /,^,!
+- __$__ >> parse an environment variable
 
 ### Pattern query examples:
 <i>lg*,!lg0</i>
