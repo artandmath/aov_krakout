@@ -4,7 +4,7 @@ from difflib import SequenceMatcher
 #aov_krakout
 #Creates a tree of lightgroups or illumination passes and recombines them
 #https://github.com/dharkness/aov_krakout
-#v007 @dharkness 2022-05-28
+#v007 @dharkness 2022-05-29
 
 class aov_tree:
     def __init__(self, aov, xy, dir_mult, x_offset, y_offset_small, y_offset_large, x_offset_mult, is_last_tree=None, orphan_buffer=None):
