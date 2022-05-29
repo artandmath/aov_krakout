@@ -255,24 +255,7 @@ class aov_krakout:
                     ret_not_match_layers += not_match_layers
                 match_layers.sort()               
                 ret_match_layers += match_layers
-            
-            '''
-            #---- find the layers we want to divide and mult back together             
-            if len(p.split('/'))>1:
-                pq = p.split('/')[0]
-                pd = p.split('/')[1]
-                if pq in all_layers:
-                    match_layers = fnmatch.filter(all_layers, pq)
-                    match_layers = list(map(lambda x: x+'/'+pd, match_layers))
-                    if len(match_layers) : print ("+ match >> {0} >> {1}".format(p,match_layers))
-                    if p[0] == '!':
-                        not_match_layers = fnmatch.filter(all_layers, pq[1:])
-                        not_match_layers = list(map(lambda x: x+'/'+pd, not_match_layers))
-                        if len(not_match_layers) : print ("- match >> {0} >> {1}".format(p,not_match_layers))
-                        ret_not_match_layers += not_match_layers
-                    match_layers.sort()
-                    ret_match_layers += match_layers
-            '''
+                
             #---- find the layers we want to mult back together
             for math_op in ['/','^']:    
                 if len(p.split(math_op))>1:
