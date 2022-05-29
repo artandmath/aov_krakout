@@ -7,7 +7,7 @@ Nuke tool. Creates a tree of lightgroups or illumination passes and recombines t
 - Install aov_krakout.py into somewhere nuke can find it (~/.nuke is fine for single user)
 - Paste contents of aov_krakout.nk into nuke.
 
-## Controls:
+## Properties:
 
 __krackout to: (direction)__ >> break out tree to left or right
 
