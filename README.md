@@ -9,39 +9,36 @@ Nuke tool. Creates a tree of lightgroups or illumination passes and recombines t
 
 ## Properties:
 
-__krackout to: (direction)__ >> break out tree to left or right
+__krackout to: (direction)__  >>  break out tree to left or right
 
-__x grid units: (xgu)__ >> this is the amount of horizontal working space generated between each aov
+__x grid units: (xgu)__  >>  this is the amount of horizontal working space generated between each aov
 
-__y grid units small: (ygu_small)__ >> vertically space out dots and shuffles Y grid units
+__y grid units small: (ygu_small)__  >>  vertically space out dots and shuffles Y grid units
 
-__y grid units large: (ygu_large)__ >> this is the amount of vertical working space generated
+__y grid units large: (ygu_large)__  >>  this is the amount of vertical working space generated
 
-__aov pattern: (aov_pattern)__ >> Uses a bash style query system for searching AOV layers. Comma delineated. AOVs will vary depending on show and facility.
+__aov pattern: (aov_pattern)__  >>  Uses a bash style query system for searching AOV layers. Comma delineated. AOVs will vary depending on show and facility.
 
-__half x grid units for ^/ queries: (x_half)__ >> Use half the amount of horizontal working space between each aov if dividing or multiplying one AOV by another using the '/' or '^' query terms.
+__half x grid units for ^/ queries: (x_half)__  >>  Use half the amount of horizontal working space between each aov if dividing or multiplying one AOV by another using the '/' or '^' query terms.
 
-__subtract sum of aovs from rgb: subtract_aovs__ >> Gather up any left over data that wasn't captured by the renderer by subtracting the queried AOVs from the rgb. Useful for debugging lighting. Final production renders should not need to use this functionality.
+__subtract sum of aovs from rgb: subtract_aovs__  >>  Gather up any left over data that wasn't captured by the renderer by subtracting the queried AOVs from the rgb. Useful for debugging lighting. Final production renders should not need to use this functionality.
 
 __krakout! (krackout)__ >> Create the nuke tree.
 
 ### Pattern query syntax:
-- __,__ >> separates each AOV search query
-- __/__ >> divide AOV by another AOV and multiply back together
-- __^__ >> multiply AOV by another
-- __!__ >> exclude this AOV
-- __*__ >> wildcard to capture multiple AOVs - works with /,^,!
-- __$__ >> parse an environment variable
+- __,__  >>  separates each AOV search query
+-   __/__  >> divide AOV by another AOV and multiply back together
+-  __^__  >>  multiply AOV by another
+-  __!__  >>  exclude this AOV
+-  __*__  >>  wildcard to capture multiple AOVs - works with /,^,!
+-  __$__  >>  parse an environment variable
 
 ### Pattern query examples:
-<i>lg*,!lg0</i>
-Fetch all AOVs starting with 'lg', ignore 'lg0'.
+<i>lg*,!lg0</i>  >>  Fetch all AOVs starting with 'lg', ignore 'lg0'.
 
-<i>light/diffuse,reflect,refract_raw^refract_filter,spec,gi</i>
-Explicitly break out some aovs. Divide 'light' by 'diffuse' multiply 'refract_raw' by 'refract_filter'.
+<i>light/diffuse,reflect,refract_raw^refract_filter,spec,gi</i>  >>  Explicitly break out some aovs. Divide 'light' by 'diffuse' multiply 'refract_raw' by 'refract_filter'.
 
-<i>$char_aovs</i>
-Parse an environment variable 'char_aovs'.
+<i>$char_aovs</i>  >>  Parse an environment variable 'char_aovs'.
 
 ## The original krakout
 
