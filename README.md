@@ -43,7 +43,7 @@ Explicitly break out some aovs. Divide 'light' by 'diffuse' multiply 'refract_ra
 <i>$char_aovs</i>
 Parse an environment variable 'char_aovs'.
 
-## The original Krackout
+## The original krakout
 
 https://www.c64-wiki.com/wiki/Krakout
 
