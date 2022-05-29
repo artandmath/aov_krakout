@@ -1,9 +1,11 @@
 # aov_krakout
 Nuke tool. Creates a tree of lightgroups or illumination passes and recombines them.
-Install aov_krakout.py into somewhere nuke can find it (~/.nuke is fine for single user)
-Paste contents of aov_krakout.nk into nuke.
-
 ![screenshot](https://raw.githubusercontent.com/artandmath/aov_krakout/master/aov_krakout_screenshot.gif)
+
+## Install instructions
+
+- Install aov_krakout.py into somewhere nuke can find it (~/.nuke is fine for single user)
+- Paste contents of aov_krakout.nk into nuke.
 
 ## Controls:
 
