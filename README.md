@@ -38,7 +38,7 @@ __krakout! (krackout)__ >> Create the nuke tree.
 
 <i>light/diffuse,reflect,refract_raw^refract_filter,spec,gi</i>  >>  Explicitly break out some aovs. Divide 'light' by 'diffuse' multiply 'refract_raw' by 'refract_filter'.
 
-<i>$char_aovs, emission</i>  >> Will fetch the string contained in the environment variable 'char_aovs' and then parse that string into the query system. Then move onto 'emission'.
+<i>$char_aovs</i>  >> Will fetch the string contained in the environment variable 'char_aovs' and then parse that string into the query system.
 
 ## The original krakout
 
