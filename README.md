@@ -49,7 +49,7 @@ __krakout! (krackout)__ >> Create the nuke tree.
 
 ## The original krakout
 
-The inspiration to break out a tree to the left or right was derived from a 1987 breakout game where the player could chose to play on the left or right sides of the screen.
+The inspiration to break out a tree to the left or right was derived from a 1987 breakout game whereby the player could chose to play on the left or right sides of the screen.
 https://www.c64-wiki.com/wiki/Krakout
 
 ## License
