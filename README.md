@@ -40,6 +40,13 @@ __krakout! (krackout)__ >> Create the nuke tree.
 
 <i>$char_aovs</i>  >> Will fetch the string contained in the environment variable 'char_aovs' and then parse that string into the query system.
 
+## To do
+- Rename to AovKrakout (or AOVKrakout, TBD).
+- Ground up re-write
+- Expand or change syntax to allow more sophisticated groupings.
+- Support for YAML or JSON.
+- Dropdown menu to read in YAML/JSON/Environment variables.
+
 ## The original krakout
 
 The inspiration to break out a tree to the left or right was derived from a 1987 breakout game where the player could chose to play on the left or right sides of the screen.
